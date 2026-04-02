@@ -1,67 +1,213 @@
-<!DOCTYPE html> <html lang=ru><!--
- Page saved with SingleFile 
- url: https://main.d3ar3rrmj9i5ii.amplifyapp.com/ 
- saved date: Sat Mar 28 2026 15:10:28 GMT+0530 (India Standard Time)
---><meta charset=utf-8>
-<meta name=viewport content="width=device-width, initial-scale=1.0">
-<title>Buy a safe in Minsk | my lp.com</title>
-<style>body{font-family:Arial,sans-serif;margin:0;padding:0;background:#f9f9f9;color:#333}header{background:#000;padding:20px;text-align:center}header h1{color:#FFD700;font-size:2.2em;margin:0}header p{color:#fff;margin-top:5px}footer{background:#000;color:#fff;padding:20px;text-align:center}.container{max-width:1100px;margin:0 auto;padding:20px;background:#fff}h1,h2{color:#111}ul{padding-left:20px}.section{margin-top:40px}.contact p{margin:5px 0}.footer-info{font-size:0.9em;color:#ccc}</style>
-<meta name=referrer content=no-referrer><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my lp.com – Safes & Metal Furniture</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --steel: #1c2a3a;
+    --steel-mid: #2e4257;
+    --gold: #c89b3c;
+    --gold-light: #e8c06a;
+    --cream: #f7f4ef;
+    --text: #1a1a1a;
+    --muted: #5a5a5a;
+    --border: #d8cfc4;
+  }
+  body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--text); font-size: 16px; line-height: 1.7; }
+
+  /* HEADER */
+  header {
+    background: var(--steel);
+    color: #fff;
+    padding: 2.5rem 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 40px);
+    pointer-events: none;
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    letter-spacing: -0.5px;
+    position: relative;
+  }
+  header p {
+    color: rgba(255,255,255,0.72);
+    font-size: 1.05rem;
+    margin-top: 0.4rem;
+    position: relative;
+  }
+
+  /* LAYOUT */
+  .container { max-width: 820px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+
+  /* SECTIONS */
+  .section {
+    padding: 2.2rem 0;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: var(--steel);
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--gold);
+  }
+
+  p { color: var(--muted); margin-bottom: 0.85rem; }
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.55rem;
+  }
+  ul li {
+    background: #fff;
+    border: 0.5px solid var(--border);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  ul li::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    flex-shrink: 0;
+  }
+
+  /* INTRO */
+  .intro { padding-top: 2.4rem; }
+
+  /* CONTACT */
+  .contact a { color: var(--steel); font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--gold); }
+  .contact a:hover { color: var(--gold); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+  .contact-card {
+    background: var(--steel);
+    color: #fff;
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+  }
+  .contact-card .label { font-size: 0.78rem; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.3rem; }
+  .contact-card .value { font-size: 1.05rem; font-weight: 500; color: #fff; }
+  .contact-card .value a { color: var(--gold-light); border: none; font-weight: 400; }
+  .cta-callout {
+    margin-top: 1.2rem;
+    background: var(--gold);
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.9rem 1.2rem;
+    font-weight: 500;
+    font-size: 0.97rem;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--steel);
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 0.82rem;
+  }
+  footer span { color: var(--gold-light); }
+</style>
+</head>
 <body>
- <header>
- <h1>my lp.com</h1>
- <p>Need to buy a safe? You're on the right track!</p>
- </header>
- <div class=container>
- <section class=intro>
- <h2>A wide selection of safes at affordable prices</h2>
- <p>We offer a wide selection of safes—furniture safes, office safes, gun safes, burglar-resistant safes, and other models. All products are in stock. Our courier will not only deliver your order but also provide detailed instructions on how to use the safe.</p>
- <p>Purchasing a safe from us is fast, convenient, and secure. We'll be happy to answer any questions you may have and help you find the right solution.</p>
- </section>
- <section class="catalog section">
- <h2>What you will find in the catalog</h2>
- <ul>
- <li>Safes of all types: furniture, weapons, office, burglar-proof</li>
- <li>Metal cabinets</li>
- <li>Shelves, urns, benches</li>
- <li>Furniture on a metal frame</li>
- <li>Metalworking workbenches</li>
- <li>Containers for solid waste</li>
- <li>Products of our own production</li>
- </ul>
- </section>
- <section class="delivery section">
- <h2>Fast delivery in Minsk and throughout Belarus</h2>
- <p>We deliver to any location in Minsk—quickly and with attention to detail. We also offer fast delivery throughout Belarus, including to Grodno, Brest, Vitebsk, Mogilev, Gomel, and other cities.
-</p>
- <p>More information about delivery can be found in the section <strong>«Delivery»</strong> on our website.</p>
- </section>
- <section class="whyus section">
- <h2>Why choose us</h2>
- <ul>
- <li>Warranty on all products</li>
- <li>Warehouse balances - goods in stock</li>
- <li>Affordable prices and consultations</li>
- <li>Polite and knowledgeable staff</li>
- <li>Own production</li>
- <li>Convenient delivery and assistance in choosing</li>
- </ul>
- </section>
- <section class="company section">
- <h2>About the company</h2>
- <p>Torvest, a privately owned manufacturing and trading unitary enterprise, specializes in metal furniture and safes. Since 2017, we've been providing reliable solutions for homes, offices, manufacturing, and businesses.</p>
- <p>Address: 303-313 Haverhill St</p>
- <p></p>
- <p>Director: Khadarovich Andrey Sergeevich</p>
- </section>
- <section class="contact section">
- <h2>Contacts</h2>
- <p>📞 +1 (718) 656-5495</p>
- <p>📧 <a href=mailto:£>safeyoursite@gmail.com</a></p>
- <p><strong>Request a call back</strong> — and we will contact you shortly!</p>
- </section>
- </div>
- <footer>
- <p>© 2026 my lp.com. All rights reserved.</p>
- <p class=footer-info>Developed by StarMedia</p>
- </footer>
+
+<header>
+  <h1>my lp.com</h1>
+  <p>Need to buy a safe? You're on the right track — we've got you covered!</p>
+</header>
+
+<div class="container">
+
+  <section class="intro section">
+    <h2>A wide selection of safes at affordable prices</h2>
+    <p>We offer a wide selection of safes—furniture safes, office safes, gun safes, burglar-resistant safes, and other models. All products are in stock and ready to ship today. Our courier will not only deliver your order promptly but also provide detailed instructions on how to use the safe correctly and safely.</p>
+    <p>Purchasing a safe from us is fast, convenient, and completely secure. Our expert team will be happy to answer any questions you may have and help you find the perfect solution for your needs.</p>
+  </section>
+
+  <section class="catalog section">
+    <h2>What you will find in the catalog</h2>
+    <ul>
+      <li>Safes of all types: furniture, weapons, office, burglar-proof</li>
+      <li>Metal cabinets</li>
+      <li>Shelves, urns, benches</li>
+      <li>Furniture on a metal frame</li>
+      <li>Metalworking workbenches</li>
+      <li>Containers for solid waste</li>
+      <li>Products of our own production</li>
+    </ul>
+  </section>
+
+  <section class="delivery section">
+    <h2>Fast delivery in Minsk and throughout Belarus</h2>
+    <p>We deliver to any location in Minsk—quickly, carefully, and with full attention to detail. We also offer fast, reliable delivery throughout Belarus, including to Grodno, Brest, Vitebsk, Mogilev, Gomel, and other cities across the country.</p>
+    <p>More information about delivery options and costs can be found in the section <strong>«Delivery»</strong> on our website.</p>
+  </section>
+
+  <section class="whyus section">
+    <h2>Why choose us</h2>
+    <ul>
+      <li>Warranty on all products</li>
+      <li>Warehouse balances — goods always in stock</li>
+      <li>Affordable prices and free consultations</li>
+      <li>Polite and highly knowledgeable staff</li>
+      <li>Own manufacturing and production</li>
+      <li>Convenient delivery and expert help choosing</li>
+    </ul>
+  </section>
+
+  <section class="company section">
+    <h2>About the company</h2>
+    <p>Torvest, a privately owned manufacturing and trading unitary enterprise, specializes in high-quality metal furniture and safes. Since 2017, we've been providing reliable, durable solutions for homes, offices, manufacturing facilities, and businesses of all sizes.</p>
+    <p><strong>Address:</strong> 303–313 Haverhill St</p>
+    <p><strong>Director:</strong> Khadarovich Andrey Sergeevich</p>
+  </section>
+
+  <section class="contact section">
+    <h2>Contacts</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="label">Phone</div>
+        <div class="value">+1 (718) 656-5495</div>
+      </div>
+      <div class="contact-card">
+        <div class="label">Email</div>
+        <div class="value"><a href="mailto:safeyoursite@gmail.com">safeyoursite@gmail.com</a></div>
+      </div>
+    </div>
+    <div class="cta-callout">Request a call back — and our team will contact you shortly to assist!</div>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2026 <span>my lp.com</span> · All rights reserved
+</footer>
+
+</body>
+</html>
